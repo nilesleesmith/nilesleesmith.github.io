@@ -83,7 +83,7 @@ git switch -c my-new-feature
 
 ### 5. Make your changes locally
 
-Make your changes to the folder and/or files.
+Make your changes to the directories and/or files.
 
 ### 6. Make your changes on GitHub
 
