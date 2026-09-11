@@ -28,7 +28,7 @@ if (contactForm) {
     const email = document.querySelector('#email').value.trim();
     const message = document.querySelector('#message').value.trim();
 
-    const recipient = 'niles@simplelogin.com';
+    const recipient = 'github.com.causation694@passmail.net';
 
     const subject = `Portfolio inquiry from ${name}`;
 
