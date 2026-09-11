@@ -1,105 +1,100 @@
-# nilesleesmith.github.io
+# Niles Smith — Web Development Portfolio
 
-My portfolio.
+I’m a web developer with a background in finance and operations, focused on building responsive, accessible websites and practical tools that solve real problems.
 
-## Overview
+This repository contains my personal portfolio and selected frontend projects built with HTML, CSS, and JavaScript.
 
-This repository contains my personal developer portfolio website. The portfolio highlights my web development skills, selected projects, professional experience, and contact information.
+## Live Portfolio
 
-**Live Website:** https://nilesleesmith.github.io
+https://nilesleesmith.github.io/
 
-## Technologies
+## What This Portfolio Demonstrates
 
-- HTML5
-- CSS3
-- JavaScript
-- Git
-- GitHub Pages
+This portfolio is intended to demonstrate practical frontend development skills, including:
 
-## Features
+- Semantic HTML
+- Responsive layouts for desktop, tablet, and mobile
+- Modern CSS using Grid, Flexbox, custom properties, and responsive sizing
+- Accessible form structure and keyboard-friendly interactions
+- Vanilla JavaScript for interactive UI behavior
+- Clear navigation and calls to action
+- Project organization using Git and GitHub
+- Building websites without unnecessary frameworks or dependencies
 
-- Responsive design for desktop, tablet, and mobile
-- Accessible semantic HTML
-- Responsive navigation
-- Project showcase
-- Contact section
-- Mobile-friendly layout
-- Cute pictures of my dog
+## Featured Projects
 
-## Projects
+### Two Street Water Ice
 
-### Project 1 — Project Name
+A responsive website for a local water-ice business in South Philadelphia.
 
-A short description of the project and the key functionality I developed.
+The site is designed to help customers understand the business, view available products and sizes, find the location, and contact the business.
 
-**Technologies:** HTML, CSS, JavaScript
+**Project focus:**
 
-- [View Live Project](#)
-- [View Source Code](#)
+- Responsive layout
+- Mobile-friendly design
+- Visual branding
+- Clear calls to action
+- Product and pricing presentation
+- Business information and navigation
 
-### Project 2 — Project Name
+### Level Ground
 
-A short description of the project and the key functionality I developed.
+A responsive website for a nonprofit and community organization that uses mixed martial arts and related programming to support young people.
 
-**Technologies:** HTML, CSS, JavaScript
+The site organizes information about the organization, its programs, employment opportunities, participation, and ways to support its work.
 
-- [View Live Project](#)
-- [View Source Code](#)
+**Project focus:**
 
-### Project 3 — Project Name
+- Responsive page structure
+- Large visual content
+- Content hierarchy
+- Navigation
+- Calls to action
+- Mission-focused communication
 
-A short description of the project and the key functionality I developed.
+### Japanese Women’s Leadership Initiative
 
-**Technologies:** HTML, CSS, JavaScript
+A responsive website for an organization focused on developing women leaders and supporting social change in Japan.
 
-- [View Live Project](#)
-- [View Source Code](#)
+The site organizes information about programs, leadership opportunities, fellows, news, and applications.
 
-## Running Locally
+**Project focus:**
 
-To run the portfolio on your local computer:
+- Information-heavy page organization
+- Multi-column layouts
+- Forms
+- Responsive design
+- Navigation
+- Content hierarchy
 
-### 1. Clone the repository
+## Technical Approach
 
-```bash
-git clone https://github.com/nilesleesmith/nilesleesmith.github.io.git
-```
+This portfolio is intentionally built without a frontend framework.
 
-### 2. Enter the project directory
+The site does not currently require complex application state, routing, or component architecture, so HTML, CSS, and JavaScript provide a simpler and more appropriate solution.
 
-``` bash
-cd nilesleesmith.github.io
-```
+Keeping the implementation lightweight allows me to focus on:
 
-### 3. Open the website
+- Semantic HTML
+- Responsive layout
+- Accessibility
+- Maintainable CSS
+- Browser behavior
+- Performance
+- Progressive enhancement
 
-Open index.html in a web browser.
+I prefer choosing tools based on the requirements of a project rather than adding dependencies without a clear benefit.
 
-### 4. Create a new banch
+## Repository Structure
 
-```bash
-git switch -c my-new-feature
-```
-
-### 5. Make your changes locally
-
-Make your changes to the directories and/or files.
-
-### 6. Make your changes on GitHub
-
-```bash
-git add .   
-git commit -m "Make my change"
-git push -u origin my-new-feature   
-```
-
-## Contact
-
-Niles Lee-Smith
-
-- Portfolio: https://nilesleesmith.github.io
-- GitHub: https://github.com/nilesleesmith
-
-## License
-
-This project is available for personal and educational use.
+```text
+nilesleesmith.github.io/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── main.js
+├── images/
+└── pages/
+    └── projects/
