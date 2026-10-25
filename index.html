@@ -4,256 +4,223 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Niles Smith | Web Developer</title>
+    <meta name="description"
+      content="Portfolio of Niles Lee-Smith, a software developer focused on full-stack web development and building web applications.">
+    <meta name="theme-color" content="#ffffff">
+    <title>Niles Lee-Smith | Software Developer</title>
     <link rel="stylesheet" href="./css/styles.css">
   </head>
 
   <body>
-    <main>
-      <section class="hero">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="site-name" href="#top">Niles Lee-Smith</a>
+        <nav class="primary-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
         <div class="hero-content">
-          <h1>Niles Smith</h1>
-          <p class="lead">I’m a web developer with a background in finance and operations. I have a strong dislike of
-            doing the boring stuff, so I build to let me have more time for the fun stuff.</p>
-          <p class="lead">I taught myself a little bit of coding to automate repetitive work and found out I really like
-            building tools that solve real problems and give people back their time. I’m especially interested in
-            Free/Libre and Open Source Software and the idea that we can and should make life a little easier.</p>
-          <p class="lead">I’m just building and looking for the next problem worth solving. If you have a
-            problem, let's work together and solve it!</p>
-          <p class="lead">I'm glad you're here. I'm
-            happy to share my projects, a little bit about myself, and some cute pictures of my dog. </p>
-          <a class="button" href="https://github.com/nilesleesmith/" target="_blank">See my GitHub</a>
+          <h1 id="hero-title">Niles Lee-Smith</h1>
+          <p class="hero-role">Software Developer</p>
+          <p class="lead">Focused on full-stack web development and building web applications.</p>
+          <div class="hero-actions">
+            <a class="button" href="#projects">View Projects</a>
+            <a class="button button-secondary" href="https://github.com/nilesleesmith/" target="_blank"
+              rel="noopener noreferrer">GitHub</a>
+          </div>
         </div>
 
-        <img class="hero-image" src="./images/me/niles-01.jpg" alt="Picture of me, Niles.">
+        <img class="hero-image" src="./images/optimized/portrait.webp" alt="Portrait of Niles Lee-Smith"
+          fetchpriority="high" decoding="async">
       </section>
 
-      <section class="spotlight reverse">
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="section-content">
+          <h2 id="about-title">About</h2>
+          <p>Before moving into software development, I worked in finance and operations. A lot of that work involved
+            repetitive processes, and I kept finding ways to make them easier and more efficient. That led me to
+            programming and automation, including projects that cut workflow completion times by up to 95%. I also
+            worked on more technology-focused initiatives, including a smart-contract proof of concept using Daml and
+            Canton.</p>
+          <p>These days, I'm focused on building full-stack web applications. I enjoy working through practical problems
+            and figuring out how software can make things simpler for the people using it. My background in operations
+            and working with stakeholders is still a big part of how I approach that work.</p>
+        </div>
+      </section>
+
+      <section class="section centered projects-heading" id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+      </section>
+
+      <section class="spotlight reverse" aria-labelledby="water-ice-title">
         <div class="spotlight-content">
-          <h2>Two Street Water Ice</h2>
-          <p>A responsive website for a local water-ice business in South Philadelphia. The site is designed to help
-            customers quickly understand the brand, see available flavors and sizes, find the stand, and contact the
-            business. Its main purpose is marketing and customer access: attract attention, communicate what the
-            business sells, and make it easy for people to visit or order. The project demonstrates responsive web
-            design, strong visual branding, navigation, calls to action, and layouts that adapt across desktop, tablet,
-            and mobile.</p>
-          <a class="button" href=".\pages\projects\philly-water\index.html" target="_blank">Take A Look</a>
+          <h2 id="water-ice-title">Two Street Water Ice</h2>
+          <p>A responsive website for a South Philadelphia water-ice business, featuring flavors, sizes, and information
+            for visiting the stand. The design uses colorful visuals, custom CSS styling, and layouts that adapt across
+            screen sizes.</p>
+          <a class="button" href="./pages/projects/philly-water/index.html" target="_blank"
+            rel="noopener noreferrer">View Project</a>
         </div>
 
-        <div class="project-gallery">
-          <img src="images/projects/phillly-water/philly-water_desktop.png" alt="Philly Water website shown on desktop">
-
-          <img src="images/projects/phillly-water/philly-water_tablet.png" alt="Philly Water website shown on tablet">
-
-          <img src="images/projects/phillly-water/philly-water_mobile.png" alt="Philly Water website shown on mobile">
+        <div class="project-gallery" aria-label="Two Street Water Ice project screenshots">
+          <img src="./images/optimized/projects/philly-water-desktop.webp"
+            alt="Desktop view of the Two Street Water Ice website" loading="lazy" decoding="async">
+          <img src="./images/optimized/projects/philly-water-tablet.webp"
+            alt="Tablet view of the Two Street Water Ice website" loading="lazy" decoding="async">
+          <img src="./images/optimized/projects/philly-water-mobile.webp"
+            alt="Mobile view of the Two Street Water Ice website" loading="lazy" decoding="async">
         </div>
       </section>
 
-      <section class="spotlight">
+      <section class="spotlight" aria-labelledby="level-ground-title">
         <div class="spotlight-content">
-          <h2>Level Ground</h2>
-          <p>A website for a nonprofit/community organization that uses mixed martial arts and related programming to
-            support young people. The site explains the organization’s mission, promotes its programs and classes, gives
-            visitors ways to learn more, and encourages support through donations. Its purpose is both informational and
-            action-oriented: tell the organization’s story while directing people toward participation, employment
-            opportunities, or financial support. The project emphasizes large visual elements, clear messaging,
-            responsive layouts, and prominent calls to action.</p>
-          <a class="button" href=".\pages\projects\level-ground\index.html" target="_blank">Take A Look</a>
+          <h2 id="level-ground-title">Level Ground</h2>
+          <p>A website for a community organization that uses mixed martial arts and educational programs to support
+            young people. The layout brings together the organization's mission, programs, and opportunities to get
+            involved, using prominent visual sections and navigation to help visitors explore the content.</p>
+          <a class="button" href="./pages/projects/level-ground/index.html" target="_blank"
+            rel="noopener noreferrer">View Project</a>
         </div>
 
-        <div class="project-gallery">
-          <img src="images/projects/level-ground/level-ground_desktop.png" alt="Level Ground website shown on desktop">
-
-          <img src="images/projects/level-ground/level-ground_tablet.png" alt="Level Ground website shown on tablet">
-
-          <img src="images/projects/level-ground/level-ground_mobile.png" alt="Level Ground website shown on mobile">
+        <div class="project-gallery" aria-label="Level Ground project screenshots">
+          <img src="./images/optimized/projects/level-ground-desktop.webp"
+            alt="Desktop view of the Level Ground website" loading="lazy" decoding="async">
+          <img src="./images/optimized/projects/level-ground-tablet.webp" alt="Tablet view of the Level Ground website"
+            loading="lazy" decoding="async">
+          <img src="./images/optimized/projects/level-ground-mobile.webp" alt="Mobile view of the Level Ground website"
+            loading="lazy" decoding="async">
         </div>
       </section>
 
-      <section class="spotlight reverse">
+      <section class="spotlight reverse" aria-labelledby="jwli-title">
         <div class="spotlight-content">
-          <h2>Japanese Women’s Leadership Initiative (JWLI)</h2>
-          <p>A website for an organization focused on developing women leaders and supporting social change in Japan.
-            The site explains the organization and its programs, introduces fellows and leadership opportunities, shares
-            news, and provides information about applying. Its purpose is primarily educational and organizational: give
-            prospective participants, supporters, and other visitors a structured way to understand JWLI’s mission and
-            opportunities. The project demonstrates navigation across a more information-heavy site, content
-            organization, forms, multi-column layouts, and responsive design.</p>
-          <a class="button" href=".\pages\projects\jwlia\index.html" target="_blank">Take A Look</a>
+          <h2 id="jwli-title">Japanese Women’s Leadership Initiative (JWLI)</h2>
+          <p>A responsive website presenting the programs, history, and leadership of an organization supporting women
+            in Japan. It organizes a larger amount of information through distinct content sections, images,
+            multi-column
+            layouts, navigation, and form interfaces.</p>
+          <a class="button" href="./pages/projects/jwlia/index.html" target="_blank" rel="noopener noreferrer">View
+            Project</a>
         </div>
 
-        <div class="project-gallery">
-          <img src="images/projects/jwlia/jwlia_desktop.png"
-            alt="Japanese Women's Leadership Institute website shown on desktop">
-
-          <img src="images/projects/jwlia/jwlia_tablet.png"
-            alt="Japanese Women's Leadership Institute website shown on tablet">
-
-          <img src="images/projects/jwlia/jwlia_mobile.png"
-            alt="Japanese Women's Leadership Institute website shown on mobile">
+        <div class="project-gallery" aria-label="Japanese Women’s Leadership Initiative project screenshots">
+          <img src="./images/optimized/projects/jwli-desktop.webp"
+            alt="Desktop view of the Japanese Women’s Leadership Initiative website" loading="lazy" decoding="async">
+          <img src="./images/optimized/projects/jwli-tablet.webp"
+            alt="Tablet view of the Japanese Women’s Leadership Initiative website" loading="lazy" decoding="async">
+          <img src="./images/optimized/projects/jwli-mobile.webp"
+            alt="Mobile view of the Japanese Women’s Leadership Initiative website" loading="lazy" decoding="async">
         </div>
       </section>
 
-      <section class="section centered">
+      <section class="section centered sensei-section" id="sensei-kubo" aria-labelledby="sensei-title">
         <div class="section-heading">
-          <h2>Sensei Kubo</h2>
-          <p>I know. This is why you are here. Dog pictures, as promised.</p>
+          <h2 id="sensei-title">Sensei Kubo</h2>
+          <p>Let's be honest. You're here for the dog pictures.</p>
         </div>
 
         <div class="gallery">
-          <a href=".\images\sensei-kubo\sensei_kubo-01.HEIC"><img src=".\images\sensei-kubo\sensei_kubo-01.HEIC"
-              alt="Very Cute Sensei Kubo Picture One"></a>
-          <a href=".\images\sensei-kubo\sensei_kubo-02.HEIC"><img src=".\images\sensei-kubo\sensei_kubo-02.HEIC"
-              alt="Very Cute Sensei Kubo Picture Two"></a>
-          <a href=".\images\sensei-kubo\sensei_kubo-03.HEIC"><img src=".\images\sensei-kubo\sensei_kubo-03.HEIC"
-              alt="Very Cute Sensei Kubo Picture Three"></a>
-          <a href=".\images\sensei-kubo\sensei_kubo-04.HEIC"><img src=".\images\sensei-kubo\sensei_kubo-04.HEIC"
-              alt="Very Cute Sensei Kubo Picture Four"></a>
-          <a href=".\images\sensei-kubo\sensei_kubo-05.jpg"><img src=".\images\sensei-kubo\sensei_kubo-05.jpg"
-              alt="Very Cute Sensei Kubo Picture Five"></a>
-          <a href=".\images\sensei-kubo\sensei_kubo-06.HEIC"><img src=".\images\sensei-kubo\sensei_kubo-06.HEIC"
-              alt="Very Cute Sensei Kubo Picture Six"></a>
-          <a href=".\images\sensei-kubo\sensei_kubo-07.HEIC"><img src=".\images\sensei-kubo\sensei_kubo-07.HEIC"
-              alt="Very Cute Sensei Kubo Picture Seven"></a>
-          <a href=".\images\sensei-kubo\sensei_kubo-08.jpg"><img src=".\images\sensei-kubo\sensei_kubo-08.jpg"
-              alt="Very Cute Sensei Kubo Picture Eight"></a>
-          <a href=".\images\sensei-kubo\sensei_kubo-09.jpg"><img src=".\images\sensei-kubo\sensei_kubo-09.jpg"
-              alt="Very Cute Sensei Kubo Picture Nine"></a>
-          <a href=".\images\sensei-kubo\sensei_kubo-10.jpg"><img src=".\images\sensei-kubo\sensei_kubo-10.jpg"
-              alt="Very Cute Sensei Kubo Picture Ten"></a>
-          <a href=".\images\sensei-kubo\sensei_kubo-11.jpg"><img src=".\images\sensei-kubo\sensei_kubo-11.jpg"
-              alt="Very Cute Sensei Kubo Picture Eleven"></a>
-          <a href=".\images\sensei-kubo\sensei_kubo-12.jpg"><img src=".\images\sensei-kubo\sensei_kubo-12.jpg"
-              alt="Very Cute Sensei Kubo Picture Twelve"></a>
+          <a href="./images/optimized/sensei-kubo/sensei-kubo-01.webp">
+            <img src="./images/optimized/sensei-kubo/sensei-kubo-01.webp"
+              alt="Sensei Kubo as a puppy resting in a blue bed" loading="lazy" decoding="async">
+          </a>
+          <a href="./images/optimized/sensei-kubo/sensei-kubo-02.webp">
+            <img src="./images/optimized/sensei-kubo/sensei-kubo-02.webp"
+              alt="Sensei Kubo standing on a wooden floor beside a crate" loading="lazy" decoding="async">
+          </a>
+          <a href="./images/optimized/sensei-kubo/sensei-kubo-03.webp">
+            <img src="./images/optimized/sensei-kubo/sensei-kubo-03.webp"
+              alt="Sensei Kubo sleeping beside a banana-shaped toy" loading="lazy" decoding="async">
+          </a>
+          <a href="./images/optimized/sensei-kubo/sensei-kubo-04.webp">
+            <img src="./images/optimized/sensei-kubo/sensei-kubo-04.webp"
+              alt="Sensei Kubo resting with plush toys in a crate" loading="lazy" decoding="async">
+          </a>
+          <a href="./images/optimized/sensei-kubo/sensei-kubo-05.webp">
+            <img src="./images/optimized/sensei-kubo/sensei-kubo-05.webp" alt="Sensei Kubo sitting on a red blanket"
+              loading="lazy" decoding="async">
+          </a>
+          <a href="./images/optimized/sensei-kubo/sensei-kubo-06.webp">
+            <img src="./images/optimized/sensei-kubo/sensei-kubo-06.webp"
+              alt="Sensei Kubo lying on a dark patterned blanket" loading="lazy" decoding="async">
+          </a>
+          <a href="./images/optimized/sensei-kubo/sensei-kubo-07.webp">
+            <img src="./images/optimized/sensei-kubo/sensei-kubo-07.webp"
+              alt="Sensei Kubo on the floor near a cat sitting on a chair" loading="lazy" decoding="async">
+          </a>
+          <a href="./images/optimized/sensei-kubo/sensei-kubo-08.webp">
+            <img src="./images/optimized/sensei-kubo/sensei-kubo-08.webp"
+              alt="Sensei Kubo looking up from a wooden floor" loading="lazy" decoding="async">
+          </a>
+          <a href="./images/optimized/sensei-kubo/sensei-kubo-09.webp">
+            <img src="./images/optimized/sensei-kubo/sensei-kubo-09.webp"
+              alt="Sensei Kubo sitting against a dark background" loading="lazy" decoding="async">
+          </a>
+          <a href="./images/optimized/sensei-kubo/sensei-kubo-10.webp">
+            <img src="./images/optimized/sensei-kubo/sensei-kubo-10.webp"
+              alt="Sensei Kubo lying down against a dark background" loading="lazy" decoding="async">
+          </a>
+          <a href="./images/optimized/sensei-kubo/sensei-kubo-11.webp">
+            <img src="./images/optimized/sensei-kubo/sensei-kubo-11.webp"
+              alt="Sensei Kubo outdoors on a wooded path near other dogs" loading="lazy" decoding="async">
+          </a>
+          <a href="./images/optimized/sensei-kubo/sensei-kubo-12.webp">
+            <img src="./images/optimized/sensei-kubo/sensei-kubo-12.webp"
+              alt="Sensei Kubo sitting on grass wearing a colorful bandana" loading="lazy" decoding="async">
+          </a>
         </div>
       </section>
 
-      <section class="section centered" hidden>
-        <div class="section-heading">
-          <h2>Ipsum sed consequat</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel
-            massa. Donec facilisis laoreet nulla eu bibendum.</p>
-        </div>
-
-        <div class="feature-grid">
-          <article>
-            <h3>Lorem</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam
-              congue semper.</p>
-          </article>
-
-          <article>
-            <h3>Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam
-              congue semper.</p>
-          </article>
-
-          <article>
-            <h3>Dolor</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam
-              congue semper.</p>
-          </article>
-
-          <article>
-            <h3>Amet</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam
-              congue semper.</p>
-          </article>
-
-          <article>
-            <h3>Magna</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam
-              congue semper.</p>
-          </article>
-
-          <article>
-            <h3>Tempus</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam
-              congue semper.</p>
-          </article>
-
-          <article>
-            <h3>Aliquam</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam
-              congue semper.</p>
-          </article>
-
-          <article>
-            <h3>Elit</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam
-              congue semper.</p>
-          </article>
-
-          <article>
-            <h3>Morbi</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam
-              congue semper.</p>
-          </article>
-
-          <article>
-            <h3>Turpis</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam
-              congue semper.</p>
-          </article>
-
-          <article>
-            <h3>Ultrices</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam
-              congue semper.</p>
-          </article>
-
-          <article>
-            <h3>Risus</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam
-              congue semper.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section contact centered">
-        <div class="form-wrap">
-          <h2>Get in touch</h2>
-
-          <form id="contact-form">
-            <div class="form-row">
-              <div>
-                <label for="name">Name</label>
-                <input id="name" name="name" type="text" autocomplete="name" required>
-              </div>
-
-              <div>
-                <label for="email">Email</label>
-                <input id="email" name="email" type="email" autocomplete="email" required>
-              </div>
-            </div>
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="6" required></textarea>
-
-            <button class="button" type="submit">Send Message</button>
-          </form>
+      <section class="section centered contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-content">
+          <h2 id="contact-title">Contact</h2>
+          <p>Interested in connecting or discussing an opportunity? Feel free to reach out.</p>
+          <div class="contact-actions">
+            <a class="button" href="https://www.linkedin.com/in/niles-lee-smith/" target="_blank"
+              rel="noopener noreferrer">Connect on LinkedIn</a>
+            <a class="button button-secondary" href="https://calendly.com/nilesleesmith/" target="_blank"
+              rel="noopener noreferrer">Schedule a Conversation</a>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer centered">
-      <nav class="social-links" aria-label="Social links">
-        <a href="https://x.com/NilesLeeSmith">Twitter</a>
-        <a href="https://bsky.app/profile/nilesleesmith.selfhosted.social">BlueSky</a>
-        <a href="https://www.linkedin.com/in/niles-lee-smith/">LinkedIn</a>
-        <a href="https://calendly.com/nilesleesmith/">Calendly</a>
+    <footer class="footer">
+      <div class="footer-inner">
+        <p class="footer-name"><strong>Niles Lee-Smith</strong> · Software Developer</p>
 
-        <p>&copy; Made by: <a href="https://github.com/nilesleesmith/">Niles Smith</a>
-          Inspired by: <a href="https://html5up.net">HTML5 UP</a>.</p>
-      </nav>
+        <nav class="social-links" aria-label="Social links">
+          <a href="https://github.com/nilesleesmith/" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/niles-lee-smith/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://bsky.app/profile/nilesleesmith.selfhosted.social" target="_blank"
+            rel="noopener noreferrer">Bluesky</a>
+          <a href="https://x.com/NilesLeeSmith" target="_blank" rel="noopener noreferrer">X</a>
+          <a href="https://calendly.com/nilesleesmith/" target="_blank" rel="noopener noreferrer">Calendly</a>
+        </nav>
+
+        <p class="footer-credit">Portfolio by Niles Lee-Smith. Design inspired by
+          <a href="https://html5up.net/story" target="_blank" rel="noopener noreferrer">Story by HTML5 UP</a>,
+          licensed under the
+          <a href="https://html5up.net/license" target="_blank" rel="noopener noreferrer">Creative Commons Attribution
+            3.0 License</a>.
+        </p>
+      </div>
     </footer>
 
-    <dialog class="lightbox" id="lightbox">
+    <dialog class="lightbox" id="lightbox" aria-label="Expanded photo">
       <button class="lightbox-close" type="button" aria-label="Close image">&times;</button>
-      <img src="" alt="Expanded gallery image">
+      <img src="" alt="">
     </dialog>
 
-    <script src="js/main.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 
 </html>

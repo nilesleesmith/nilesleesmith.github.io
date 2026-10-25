@@ -6,7 +6,11 @@ if (lightbox && lightboxImage) {
   document.querySelectorAll('.gallery a').forEach((link) => {
     link.addEventListener('click', (event) => {
       event.preventDefault();
+
+      const thumbnail = link.querySelector('img');
       lightboxImage.src = link.href;
+      lightboxImage.alt = thumbnail?.alt || 'Expanded photo of Sensei Kubo';
+
       lightbox.showModal();
     });
   });
@@ -14,37 +18,13 @@ if (lightbox && lightboxImage) {
   closeButton?.addEventListener('click', () => lightbox.close());
 
   lightbox.addEventListener('click', (event) => {
-    if (event.target === lightbox) lightbox.close();
+    if (event.target === lightbox) {
+      lightbox.close();
+    }
   });
-}
 
-const contactForm = document.querySelector('#contact-form');
-
-if (contactForm) {
-  contactForm.addEventListener('submit', (event) => {
-    event.preventDefault();
-
-    const name = document.querySelector('#name').value.trim();
-    const email = document.querySelector('#email').value.trim();
-    const message = document.querySelector('#message').value.trim();
-
-    const recipient = 'github.com.causation694@passmail.net';
-
-    const subject = `Portfolio inquiry from ${name}`;
-
-    const body = [
-      `Name: ${name}`,
-      `Email: ${email}`,
-      '',
-      'Message:',
-      message
-    ].join('\n');
-
-    const mailtoUrl =
-      `mailto:${recipient}` +
-      `?subject=${encodeURIComponent(subject)}` +
-      `&body=${encodeURIComponent(body)}`;
-
-    window.location.href = mailtoUrl;
+  lightbox.addEventListener('close', () => {
+    lightboxImage.removeAttribute('src');
+    lightboxImage.alt = '';
   });
 }
