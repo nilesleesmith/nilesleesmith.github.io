@@ -1,51 +1,81 @@
-# Niles Smith — Web Development Portfolio
+# Niles Smith — Portfolio
 
-My personal web development portfolio showcasing projects built with HTML, CSS, JavaScript, and other web technologies.
+My personal portfolio for selected web development projects and professional contact information.
 
-## About
+## Overview
 
-I am a web developer focused on building practical, responsive, accessible, and maintainable web applications.
+This repository contains the source for my portfolio website.
 
-This portfolio brings together selected projects that demonstrate my progress in frontend development, JavaScript, responsive design, API integration, and version control.
+The site introduces my background and current development focus, presents selected projects with desktop, tablet, and mobile project views, includes an image gallery with lightbox behavior, and provides links to GitHub and other professional profiles.
 
-## What This Portfolio Demonstrates
+## Featured Projects
 
-- Semantic HTML
-- Responsive web design
-- CSS Flexbox and Grid
-- Accessible page structure
-- Vanilla JavaScript
-- DOM manipulation
-- API integration
-- Git and GitHub workflows
-- Project organization
-- Mobile-friendly interfaces
+The current portfolio includes:
 
-## Featured Work
+- Two Street Water Ice
+- Level Ground
+- Japanese Women's Leadership Initiative (JWLI)
 
-The portfolio includes projects such as:
-
-- Business and organization websites
-- JavaScript applications
-- API projects
-- Interactive browser applications
-- Programming practice projects
+Each featured project includes a short description, a project link, and responsive screenshots.
 
 ## Technologies
 
-- HTML5
-- CSS3
-- JavaScript
-- Git
-- GitHub
-- GitHub Pages
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://git-scm.com/" title="Git">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://github.com/" title="GitHub">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40">
+  </a>
+</p>
+
+- [GitHub Pages](https://pages.github.com/)
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/nilesleesmith/nilesleesmith.github.io.git
+```
+
+2. Open the project folder.
+
+3. Open `index.html` in a web browser.
+
+No additional packages or build steps are required.
 
 ## Live Site
 
 https://nilesleesmith.github.io/
 
-## Development Approach
+## Screenshots
 
-I prefer straightforward solutions and readable code over unnecessary complexity.
+### Desktop
 
-My goal is to build websites and applications that are easy to understand, maintain, navigate, and improve.
+![Portfolio desktop view](./images/screenshots/nilesleesmith-github-io-desktop.png)
+
+### Tablet
+
+![Portfolio tablet view](./images/screenshots/nilesleesmith-github-io-tablet.png)
+
+### Mobile
+
+![Portfolio mobile view](./images/screenshots/nilesleesmith-github-io-mobile.png)
+
+## Attribution
+
+The site includes design inspiration credited in the footer to [HTML5 UP](https://html5up.net/).
