@@ -24,6 +24,10 @@ body {
   line-height: 1.7;
 }
 
+main {
+  padding: 5%;
+}
+
 img {
   display: block;
   max-width: 100%;
